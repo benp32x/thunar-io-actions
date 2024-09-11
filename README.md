@@ -180,13 +180,13 @@ Appears if selection contains:
 
 ## 6.) Check .sfv's Recursively (in development)
 
-The script for this action is still in development. The code I have works, but it needs a lot of cleanup.
+The script for this action is still in development. The code I have works, but it needs a lot of clean-up.
 
 The intent is to drill down recursively and check every .sfv file within a folder structure.
 
 ## A note on SFV files
 
-Multiple actions above related to "SFV" files. SFV stands for "Simple File Verification". A .sfv file contains CRC32 checksums for each file you specify. This allows you to check the integrity of a file to make sure it has not been corrupted. I honestly don't know how anyone copies data to a USB Flash Drive, without creating a .sfv file to verify the data was actually written to the storage medium without corruption. I highly recommend using .sfv files when copying/transfering *anything* between 2 locations. Copying the data from one drive to another? to the internet? over your LAN? Create an SFV file before you copy it over, then check the SFV file after you've copied the data to its destination. Is your data important? Do this please.
+Multiple actions above relate to "SFV" files. SFV stands for "Simple File Verification". A .sfv file contains CRC32 checksums for each file you specify. This allows you to check the integrity of a file to make sure it has not been corrupted. I honestly don't know how anyone copies data to a USB Flash Drive, without creating a .sfv file to verify the data was actually written to the storage medium without corruption. I highly recommend using .sfv files when copying/transferring *anything* between 2 locations. Copying the data from one drive to another? to the internet? over your LAN? Create an SFV file before you copy it over, then check the SFV file after you've copied the data to its destination. Is your data important? Do this please.
 
 ## License
 

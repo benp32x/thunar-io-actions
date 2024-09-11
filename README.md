@@ -4,7 +4,7 @@ Advanced I/O related Custom Actions for Thunar File Manager
 
 [Thunar](https://en.wikipedia.org/wiki/Thunar) is the File Manager for the [XFCE](https://en.wikipedia.org/wiki/Xfce) Linux Desktop Environment. You can create Custom Actions from the context menu when right clicking on a folder or files.
 
-See here for official documentation on Custom Actions:
+See here for official documentation on Custom Actions:  
 https://docs.xfce.org/xfce/thunar/custom-actions
 
 This repository contains the following Custom Actions:

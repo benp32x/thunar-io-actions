@@ -71,7 +71,7 @@ Thunar's Properties view was simply not cutting it for me. So I wrote `propertie
 Features:
 
 * I needed to see the total number of files in a folder structure (not "items" which is a generic term for folders AND files).
-* I needed to get the size of a selection in "Mebibytes/Kibibytes/Gibibytes". I do lots of classic video game research, and when I check the properties of files on Windows/Linux, I need the byte count to match.
+* I needed to get the size of a selection in "Kibibytes/Mebibytes/Gibibytes" (KiB/MiB/GiB). I do lots of classic video game research, and when I check the properties of files on Windows/Linux, I need the byte count to match.
 * If an "individual" folder is selected, the file(s) / folder(s) count should not include this parent selected folder in the total. It should only deliver information what what is "inside" the folder. This follows the model that a user wants to know "what's inside" their selection if multiple items are selected, and wants to know "what's inside" a folder if a single folder is selected.
 * Compensates for symlinks
 * Displays archive information with compression ratio where possible. This is a feature I was very much used to having on Windows from WinRAR's GUI interface. It was very helpful, and I tried to replicate this data render as best I can with this script.
